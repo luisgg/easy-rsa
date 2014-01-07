@@ -1,0 +1,19 @@
+easy-rsa (2.2.2-1) unstable; urgency=low
+
+  * New upstream release. (Closes: #733905)
+  * Rework build system, remove Build-Deps on autotools-dev
+  * Add README.Debian with tips on using easy-rsa.
+  * Add patch to support specifying subjectAltName (for use in web server
+    certs).
+  * Add suggestions to improve defaults' security to README.Debian.
+  * Rescue upstream README file from older tarball.
+  * Bumped Standards-Version to 3.9.5
+
+ -- Alberto Gonzalez Iniesta <agi@inittab.org>  Tue, 07 Jan 2014 12:14:58 +0100
+
+easy-rsa (2.2.0-1) unstable; urgency=low
+
+  * Initial release (Closes: #693070)
+  * Create make-cadir, to simplify the use of easy-rsa in Debian.
+
+ -- Alberto Gonzalez Iniesta <agi@inittab.org>  Tue, 06 Nov 2012 13:43:50 +0100
